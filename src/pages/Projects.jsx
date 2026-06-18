@@ -4,11 +4,12 @@ import { ExternalLink, Github } from 'lucide-react'
 
 const PROJECTS = [
     {
-        title: 'Project Alpha',
-        description: 'A short description of the project and what it does.',
-        tags: ['React', 'TypeScript', 'GSAP'],
-        link: '#',
-        github: '#',
+        title: 'Ant Evolution Sim',
+        description:
+            'A long-running browser-based evolution toy. Thousands of organisms wander a 1000×1000 toroidal world, eat, reproduce with mutation, and evolve quantitative traits encoded by diploid chromosomes.',
+        tags: ['JavaScript', 'Canvas', 'ECS', 'Genetic Algorithms'],
+        link: 'https://github.com/jverene/antevolution',
+        github: 'https://github.com/jverene/antevolution',
     },
     {
         title: 'Project Beta',
